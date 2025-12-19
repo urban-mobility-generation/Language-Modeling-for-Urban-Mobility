@@ -6,6 +6,12 @@
 
 > This repository contains a collection of resources and papers on applying language modeling paradigms to urban mobility scenarios.
 
+![00-intro](assets/00-intro.png)
+
+we propose a comprehensive and data-centric survey of language modeling for urban mobility, structured along three key dimensions: 
+- **(i) How to transform heterogeneous mobility data into language model–like formats through tokenization, encoding, and prompting;** 
+- **(ii) How to choose among different categories of language models, ranging from pretrained language models, large language models (LLMs), MLLMs, and diffusion models;**
+- **(iii) What are the advantages of applying language modeling to urban mobility in diverse urban downstream tasks?**
 
 ## Contents
 
