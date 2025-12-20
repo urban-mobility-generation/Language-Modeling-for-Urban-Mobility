@@ -1,4 +1,4 @@
-# Language-Modeling-for-Urban-Mobility-A-Data-Centric-Survey
+# Awesome Language Modeling for Urban Mobility
 > Language Modeling for Urban Mobility: A Data-Centric Review and Guidelines
 
 ![01-Data](assets/01-introduction.png)
