@@ -61,6 +61,44 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 - [References from General AI Communities](#References-from-General-AI-Communities)
 
 # Related Survey
+- A survey on deep learning for human mobility (2021). [[paper]](https://arxiv.org/pdf/2012.02825.pdf)
+  - Massimiliano Luca, Gianni Barlacchi, Bruno Lepri, Luca Pappalardo
+
+- MobilityDL: a review of deep learning from trajectory data (2025). [[paper]](https://arxiv.org/pdf/2402.00732.pdf)
+  - Anita Graser, Anahid Jalali, Jasmin Lampert, Axel Weißenfeld, Krzysztof Janowicz
+
+- Deep learning for trajectory data management and mining: A survey and beyond (2024). [[paper]](https://arxiv.org/pdf/2403.14151.pdf)
+  - Wei Chen, Yuxuan Liang, Yuanshao Zhu, Yanchuan Chang, Kang Luo, Haomin Wen, Lei Li, Yanwei Yu, Qingsong Wen, Chao Chen, et al.
+
+- A survey of large language models for traffic forecasting: Methods and applications (2025). [[paper]](https://doi.org/10.36227/techrxiv.174495271.19469544/v1)
+  - Qingqing Long, Shuai Liu, Ning Cao, Zhicheng Ren, Wei Ju, Chen Fang, Zhihong Zhu, Hengshu Zhu, Yuanchun Zhou
+
+- Large language models for mobility analysis in transportation systems: A survey on forecasting tasks (2024). [[paper]](https://arxiv.org/pdf/2404.09307.pdf)
+  - Zijian Zhang, Yujie Sun, Zepu Wang, Yuqi Nie, Xiaobo Ma, Ruolin Li, Peng Sun, Xuegang Ban
+
+- Large Language Models for Urban Mobility (2025). [[paper]](https://doi.org/10.1109/MDM65600.2025.00041)
+  - Youssef Hussein, Mohamed Hemdan, Mohamed F Mokbel
+
+- Large models for time series and spatio-temporal data: A survey and outlook (2023). [[paper]](https://arxiv.org/pdf/2310.10196.pdf)
+  - Ming Jin, Qingsong Wen, Yuxuan Liang, Chaoli Zhang, Siqiao Xue, Xue Wang, James Zhang, Yi Wang, Haifeng Chen, Xiaoli Li, et al.
+
+- Foundation models for spatio-temporal data science: A tutorial and survey (2025). [[paper]](https://arxiv.org/pdf/2505.17607.pdf)
+  - Yuxuan Liang, Haomin Wen, Yutong Xia, Ming Jin, Bin Yang, Flora Salim, Qingsong Wen, Shirui Pan, Gao Cong
+
+- Unraveling Spatio-Temporal Foundation Models via the Pipeline Lens: A Comprehensive Review (2025). [[paper]](https://arxiv.org/pdf/2506.01364.pdf)
+  - Yuchen Fang, Hao Miao, Yuxuan Liang, Liwei Deng, Yue Cui, Ximu Zeng, Yuyang Xia, Yan Zhao, Torben Bach Pedersen, Christian S Jensen, et al.
+
+- How can time series analysis benefit from multiple modalities? a survey and outlook (2025). [[paper]](https://arxiv.org/pdf/2503.11835.pdf)
+  - Haoxin Liu, Harshavardhan Kamarthi, Zhiyuan Zhao, Shangqing Xu, Shiyu Wang, Qingsong Wen, Tom Hartvigsen, Fei Wang, B Aditya Prakash
+
+- Multi-modal time series analysis: A tutorial and survey (2025). [[paper]](https://arxiv.org/pdf/2503.13709.pdf)
+  - Yushan Jiang, Kanghui Ning, Zijie Pan, Xuyang Shen, Jingchao Ni, Wenchao Yu, Anderson Schneider, Haifeng Chen, Yuriy Nevmyvaka, Dongjin Song
+
+- Urban computing in the era of large language models (2025). [[paper]](https://arxiv.org/pdf/2504.02009.pdf)
+  - Zhonghang Li, Lianghao Xia, Xubin Ren, Jiabin Tang, Tianyi Chen, Yong Xu, Chao Huang
+
+- Towards urban general intelligence: A review and outlook of urban foundation models (2024). [[paper]](https://arxiv.org/pdf/2408.03732.pdf)
+  - Weijia Zhang, Jindong Han, Zhao Xu, Hang Ni, Hao Liu, Hui Xiong
 
 
 
@@ -375,51 +413,51 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 
 # Dataset
 
-| Category | Dataset | Description | Geography | Statistics | Year |
-|---|---|---|---|---|---|
-| Discrete Sequence | [Veraset-Visits](https://www.veraset.com/datasets/visits) | POI check-in | USA | 4+ million points of interest | 2019-Present |
-| Discrete Sequence | [Yelp-check-ins](https://www.yelp.com/dataset/) | POI check-in | Global | 6,990,280 Reviews | 2004-2019 |
-| Discrete Sequence | Tencent~\cite{shao2024chain} | POI check-in | Beijing | 297,363,263 trajectory points | 2019 |
-| Discrete Sequence | Foursquare-Global~\cite{yang2016participatory,yang2015nationtelescope} | POI check-in | Global | 33,278,683 check-ins | 2012-2013 |
-| Discrete Sequence | Brightkite~\cite{cho2011friendship} | POI check-in | Global | 4,491,143 check-ins | 2008-2010 |
-| Discrete Sequence | [NYC TLC](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Taxi trip record | NYC | Billions of trips | 2009-2025 |
-| Discrete Sequence | [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips-2013-2023-/wrvz-psew/about_data) | Taxi trip record | Chicago | 212 millions trips | 2013-2023 |
-| Discrete Sequence | LaDe~\cite{wu2023lade} | Delivery Records | China | 10,677K packages, 21K couriers | 2023 |
-| Discrete Sequence | ChinaMobile~\cite{shao2024chain} | Cellular Trajectories | Beijing | 4,163,651 points from 1,246 users | 2017 |
-| Discrete Sequence | GMove~\cite{zhang2016gmove} | Tweet check-in trajectory | New York | 0.7 million tweets | 2014 |
-| Discrete Sequence | Gowalla~\cite{cho2011friendship} | human check-in trajectory | Global | 6,442,890 checkins | 2009-2010 |
-| Continuous Sequence | YJMob100K-Dataset~\cite{yabe2024yjmob100k} | Human trajectory | Japan | 20k individuals, 75 days | 2023 |
+| Category | Dataset                                                                                                    | Description | Geography | Statistics | Year |
+|---|------------------------------------------------------------------------------------------------------------|---|---|---|---|
+| Discrete Sequence | [Veraset-Visits](https://www.veraset.com/datasets/visits)                                                  | POI check-in | USA | 4+ million points of interest | 2019-Present |
+| Discrete Sequence | [Yelp-check-ins](https://www.yelp.com/dataset/)                                                            | POI check-in | Global | 6,990,280 Reviews | 2004-2019 |
+| Discrete Sequence | [Tencent Mobility](https://arxiv.org/pdf/2402.09836)                                                       | POI check-in | Beijing | 297,363,263 trajectory points | 2019 |
+| Discrete Sequence | Foursquare-Global~\cite{yang2016participatory,yang2015nationtelescope}                                     | POI check-in | Global | 33,278,683 check-ins | 2012-2013 |
+| Discrete Sequence | Brightkite~\cite{cho2011friendship}                                                                        | POI check-in | Global | 4,491,143 check-ins | 2008-2010 |
+| Discrete Sequence | [NYC TLC](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)                                    | Taxi trip record | NYC | Billions of trips | 2009-2025 |
+| Discrete Sequence | [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips-2013-2023-/wrvz-psew/about_data)     | Taxi trip record | Chicago | 212 millions trips | 2013-2023 |
+| Discrete Sequence | LaDe~\cite{wu2023lade}                                                                                     | Delivery Records | China | 10,677K packages, 21K couriers | 2023 |
+| Discrete Sequence | ChinaMobile~\cite{shao2024chain}                                                                           | Cellular Trajectories | Beijing | 4,163,651 points from 1,246 users | 2017 |
+| Discrete Sequence | GMove~\cite{zhang2016gmove}                                                                                | Tweet check-in trajectory | New York | 0.7 million tweets | 2014 |
+| Discrete Sequence | Gowalla~\cite{cho2011friendship}                                                                           | human check-in trajectory | Global | 6,442,890 checkins | 2009-2010 |
+| Continuous Sequence | YJMob100K-Dataset~\cite{yabe2024yjmob100k}                                                                 | Human trajectory | Japan | 20k individuals, 75 days | 2023 |
 | Continuous Sequence | [MTA Subway Ridership](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s) | Subway ridership | NYC | 121 millions Records | 2020-present |
-| Continuous Sequence | [TaxiPorto](https://kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i) | GPS taxi trajectory | Porto | 442 taxis | 2013-2014 |
-| Continuous Sequence | [DiDi-Xi'an](https://outreach.didichuxing.com) | Ride-hailing trajectories | Xi'an | 1 billion trajectories | 2016 |
-| Continuous Sequence | [GAIA-Chengdu](https://outreach.didichuxing.com/research/opendata/en/) | Ride-hailing trajectories | Chengdu | 7 million ride request records | 2016 |
+| Continuous Sequence | [TaxiPorto](https://kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i)                     | GPS taxi trajectory | Porto | 442 taxis | 2013-2014 |
+| Continuous Sequence | [DiDi-Xi'an](https://outreach.didichuxing.com)                                                             | Ride-hailing trajectories | Xi'an | 1 billion trajectories | 2016 |
+| Continuous Sequence | [GAIA-Chengdu](https://outreach.didichuxing.com/research/opendata/en/)                                     | Ride-hailing trajectories | Chengdu | 7 million ride request records | 2016 |
 | Continuous Sequence | [GeoLife](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/) | Human GPS trajectory | China | 17,621 trajectories | 2007-2012 |
-| Continuous Sequence | T-Drive~\cite{yuan2011driving} | Taxi GPS trajectory | Beijing | 169,984 trajectories, 10,357 taxis | 2008 |
-| Continuous Sequence | TaxiBJ~\cite{zhang2017deep} | Taxi flow | Beijing | 22,459 time intervals | 2013-2016 |
-| Continuous Sequence | [SafeGraph](https://www.safegraph.com) | Visits per month by POI | USA | 84 million | 2019-Present |
-| Continuous Sequence | [Advan Monthly Patterns](https://docs.deweydata.io/docs/advan-research-monthly-patterns) | Visits per month by POI | USA | 1B | 2019-Present |
-| Continuous Sequence | [Advan Weekly Patterns](https://docs.deweydata.io/docs/advan-research-weekly-patterns) | Visits per week by POI | USA | 2.3B | 2018-Present |
-| Spatio-Temporal Graph | [PEMS](https://pems.dot.ca.gov/) | Mobility network | California | 2 GB per day | 1998-present |
-| Spatio-Temporal Graph | [NYC Yellow Taxi](https://doi.org/10.5281/zenodo.17089134) | Trip-Hourly-Count flow | NYC | 36.4 million total trip volumes | 2011-2024 |
-| Spatio-Temporal Graph | [CHI-Taxi](https://data.cityofchicago.org/Transportation/Taxi-Trips-2024/sa9s-wkhk) | Taxi demand | Chicago | 77 nodes | 2024 |
-| Spatio-Temporal Graph | LargeST~\cite{liu2023largest} | Vehicle traffic flow | California | 525,888 time frames | 2017-2021 |
-| Spatio-Temporal Graph | COVID-19 Human Mobility~\cite{kang2020multiscale} | OD flow network | USA | 3 geographic scales | 2020 |
-| Spatio-Temporal Graph | LODES-7.5~\cite{LODES7.5_2021} | Commuting OD flow network | USA | 12 OD files for a state-year | 2002-2019 |
-| Spatio-Temporal Graph | [BikeNYC](https://citibikenyc.com/system-data) | Bike flow | NYC | Millions Monthly | 2014 |
-| Spatio-Temporal Graph | BJER4~\cite{yu2017spatio} | Road network traffic speed dataset | Beijing | 12 roads | 2014 |
-| Spatio-Temporal Graph | METR-LA~\cite{li2017diffusion} | Traffic speed network dataset | Los Angeles | 6,519,002 points | 2012 |
-| Spatio-Temporal Graph | UK mobility flow~\cite{simini2021deep} | Commuting OD flow network | UK | 30,008,634 commuters | 2011 |
-| Spatio-Temporal Graph | Italy mobility flow~\cite{simini2021deep} | Commuting OD flow network | Italy | 15,003,287 commuters | 2011 |
-| Multimodal Mobility | [Yelp Dataset](https://www.yelp.com/dataset/) | Check-in + Text Reviews | Global | 6,990,280 Reviews | 2004-2019 |
-| Multimodal Mobility | nuScenes~\cite{caesar2020nuscenes} | Vision + Trajectories | Boston, Singapore | 1000 scenes, 1.4M images | 2019 |
-| Multimodal Mobility | [Waymo Open Motion Dataset](https://waymo.com/open/download) | Vision + Trajectories | Six U.S. cities | 570+ hours at 10 Hz | 2020-2023 |
-| Multimodal Mobility | TartanAviation~\cite{patrikar2025image} | Images + Trajectories | Pittsburgh | 3.1M images, 661 days of trajectory | 2020-2023 |
-| Multimodal Mobility | GlODGen~\cite{rong2025satellites} | Vision + OD Flow | Global | synthetic data | 2025 |
-| Multimodal Mobility | Earth AI~\cite{bell2025earth} | Vision + population + environment | Global | 10-meter resolution | 2025 |
-| Multimodal Mobility | NetMob25~\cite{chasse2025netmob25} | Population + trip description + trajectories | Greater Paris area | 500 million high frequency points | 2022-2023 |
-| Multimodal Mobility | BostonWalks~\cite{meister2025bostonwalks} | Population + trip + activity | Boston metropolitan area | 155,000 trips, 990 participants | 2023 |
-| Multimodal Mobility | Breadcrumbs~\cite{moro2019breadcrumbs} | Population + trajectory + POI labeling | Lausanne | 46,380,042 records, 81 users | 2018 |
-| Multimodal Mobility | RECORD MultiSensor Study~\cite{chaix2019combining} | Population + trajectory + semantic trip annotations | Paris region | 21,163 segments of observation | 2013-2015 |
+| Continuous Sequence | T-Drive~\cite{yuan2011driving}                                                                             | Taxi GPS trajectory | Beijing | 169,984 trajectories, 10,357 taxis | 2008 |
+| Continuous Sequence | TaxiBJ~\cite{zhang2017deep}                                                                                | Taxi flow | Beijing | 22,459 time intervals | 2013-2016 |
+| Continuous Sequence | [SafeGraph](https://www.safegraph.com)                                                                     | Visits per month by POI | USA | 84 million | 2019-Present |
+| Continuous Sequence | [Advan Monthly Patterns](https://docs.deweydata.io/docs/advan-research-monthly-patterns)                   | Visits per month by POI | USA | 1B | 2019-Present |
+| Continuous Sequence | [Advan Weekly Patterns](https://docs.deweydata.io/docs/advan-research-weekly-patterns)                     | Visits per week by POI | USA | 2.3B | 2018-Present |
+| Spatio-Temporal Graph | [PEMS](https://pems.dot.ca.gov/)                                                                           | Mobility network | California | 2 GB per day | 1998-present |
+| Spatio-Temporal Graph | [NYC Yellow Taxi](https://doi.org/10.5281/zenodo.17089134)                                                 | Trip-Hourly-Count flow | NYC | 36.4 million total trip volumes | 2011-2024 |
+| Spatio-Temporal Graph | [CHI-Taxi](https://data.cityofchicago.org/Transportation/Taxi-Trips-2024/sa9s-wkhk)                        | Taxi demand | Chicago | 77 nodes | 2024 |
+| Spatio-Temporal Graph | LargeST~\cite{liu2023largest}                                                                              | Vehicle traffic flow | California | 525,888 time frames | 2017-2021 |
+| Spatio-Temporal Graph | COVID-19 Human Mobility~\cite{kang2020multiscale}                                                          | OD flow network | USA | 3 geographic scales | 2020 |
+| Spatio-Temporal Graph | LODES-7.5~\cite{LODES7.5_2021}                                                                             | Commuting OD flow network | USA | 12 OD files for a state-year | 2002-2019 |
+| Spatio-Temporal Graph | [BikeNYC](https://citibikenyc.com/system-data)                                                             | Bike flow | NYC | Millions Monthly | 2014 |
+| Spatio-Temporal Graph | BJER4~\cite{yu2017spatio}                                                                                  | Road network traffic speed dataset | Beijing | 12 roads | 2014 |
+| Spatio-Temporal Graph | METR-LA~\cite{li2017diffusion}                                                                             | Traffic speed network dataset | Los Angeles | 6,519,002 points | 2012 |
+| Spatio-Temporal Graph | UK mobility flow~\cite{simini2021deep}                                                                     | Commuting OD flow network | UK | 30,008,634 commuters | 2011 |
+| Spatio-Temporal Graph | Italy mobility flow~\cite{simini2021deep}                                                                  | Commuting OD flow network | Italy | 15,003,287 commuters | 2011 |
+| Multimodal Mobility | [Yelp Dataset](https://www.yelp.com/dataset/)                                                              | Check-in + Text Reviews | Global | 6,990,280 Reviews | 2004-2019 |
+| Multimodal Mobility | nuScenes~\cite{caesar2020nuscenes}                                                                         | Vision + Trajectories | Boston, Singapore | 1000 scenes, 1.4M images | 2019 |
+| Multimodal Mobility | [Waymo Open Motion Dataset](https://waymo.com/open/download)                                               | Vision + Trajectories | Six U.S. cities | 570+ hours at 10 Hz | 2020-2023 |
+| Multimodal Mobility | TartanAviation~\cite{patrikar2025image}                                                                    | Images + Trajectories | Pittsburgh | 3.1M images, 661 days of trajectory | 2020-2023 |
+| Multimodal Mobility | GlODGen~\cite{rong2025satellites}                                                                          | Vision + OD Flow | Global | synthetic data | 2025 |
+| Multimodal Mobility | Earth AI~\cite{bell2025earth}                                                                              | Vision + population + environment | Global | 10-meter resolution | 2025 |
+| Multimodal Mobility | NetMob25~\cite{chasse2025netmob25}                                                                         | Population + trip description + trajectories | Greater Paris area | 500 million high frequency points | 2022-2023 |
+| Multimodal Mobility | BostonWalks~\cite{meister2025bostonwalks}                                                                  | Population + trip + activity | Boston metropolitan area | 155,000 trips, 990 participants | 2023 |
+| Multimodal Mobility | Breadcrumbs~\cite{moro2019breadcrumbs}                                                                     | Population + trajectory + POI labeling | Lausanne | 46,380,042 records, 81 users | 2018 |
+| Multimodal Mobility | RECORD MultiSensor Study~\cite{chaix2019combining}                                                         | Population + trajectory + semantic trip annotations | Paris region | 21,163 segments of observation | 2013-2015 |
 
 
 
