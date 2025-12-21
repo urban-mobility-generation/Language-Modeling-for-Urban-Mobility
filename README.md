@@ -8,7 +8,7 @@
 
 ![00-intro](assets/00-intro.png)
 
-we propose a comprehensive and data-centric survey of language modeling for urban mobility, structured along three key dimensions: 
+We propose a comprehensive and data-centric survey of language modeling for urban mobility, structured along three key dimensions: 
 - **(i) How to transform heterogeneous mobility data into language model–like formats through tokenization, encoding, and prompting;** 
 - **(ii) How to choose among different categories of language models, ranging from pretrained language models, large language models (LLMs), MLLMs, and diffusion models;**
 - **(iii) What are the advantages of applying language modeling to urban mobility in diverse urban downstream tasks?**
@@ -58,11 +58,13 @@ we propose a comprehensive and data-centric survey of language modeling for urba
   - [4.6 Text and Graph](#46-text-and-graph)
 
 - [Dataset](#Dataset)
-- [References from other AI Communities](#References-from-Other-AI-Communities)
+- [References from General AI Communities](#References-from-General-AI-Communities)
 
 # Related Survey
 
 
+
+# Related Paper Lists
 
 ## 1. Discrete Mobility Sequence
 
@@ -74,30 +76,30 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 #### 1.1.1 Pretrained LM
 
 - **Attention**
-  - MoveSim: Learning to simulate human mobility (`feng2020learning`) KDD, 2020. [[Link]](TBD)
-  - TPG (`luo2023timestamps`) Timestamps as prompts for geography-aware location recommendation (`luo2023timestamps`) CIKM, 2023. [[PDF]](TBD) [[Link]](TBD)
+  - MoveSim (`feng2020learning`)  Learning to simulate human mobility. KDD, 2020. [[paper]](https://dl.acm.org/doi/10.1145/3394486.3412862)
+  - TPG (`luo2023timestamps`) Timestamps as prompts for geography-aware location recommendation. CIKM, 2023. [[paper]](https://arxiv.org/abs/2304.04151) 
 
 - **Masked LM**
-  - CTLE (`lin2021pre`) Pre-training context and time aware location embeddings from spatial-temporal trajectories for user next location prediction (`lin2021pre`) AAAI, 2021. [[PDF]](TBD) [[Link]](TBD)
-  - Wepos (`guo2022wepos`) Wepos: Weak-supervised indoor positioning with unlabeled wifi for on-demand delivery (`guo2022wepos`) IMWUT, 2022. [[PDF]](TBD) [[Link]](TBD)
-  - Yang et al. (`yang2024applying`) Applying masked language model for transport mode choice behavior prediction (`yang2024applying`) TR-A, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - GREEN (`zhou2025grid`) Grid and road expressions are complementary for trajectory representation learning (`zhou2025grid`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - TrajBERT (`trajbert2023`) TrajBERT: BERT-Based Trajectory Recovery with Spatial-Temporal Refinement (`trajbert2023`) TMC, 2023. [[PDF]](TBD) [[Link]](https://doi.org/10.1109/TMC.2023.3297115)
+  - CTLE (`lin2021pre`) Pre-training context and time aware location embeddings from spatial-temporal trajectories for user next location prediction. AAAI, 2021. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/16548) 
+  - Wepos (`guo2022wepos`) Wepos: Weak-supervised indoor positioning with unlabeled wifi for on-demand delivery. IMWUT, 2022. [[paper]](https://dl.acm.org/doi/10.1145/3534574) 
+  - Yang et al. (`yang2024applying`) Applying masked language model for transport mode choice behavior prediction. TR-A, 2024. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0965856424001228) 
+  - GREEN (`zhou2025grid`) Grid and road expressions are complementary for trajectory representation learning. KDD, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709272) 
+  - TrajBERT (`trajbert2023`) TrajBERT: BERT-Based Trajectory Recovery with Spatial-Temporal Refinement. TMC, 2023. [[paper]](https://dl.acm.org/doi/abs/10.1109/TMC.2023.3297115) 
 
 - **Transformer Decoder**
-  - MobilityGPT (`mobilitygpt2024`)
-  - GeoFormer (`solatorio2023geoformer`) GeoFormer: predicting human mobility using generative pre-trained transformer (GPT) (`solatorio2023geoformer`) 1st International Workshop on the Human, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - LMTAD (`mbuya2024trajectory`) Trajectory Anomaly Detection with Language Models (`mbuya2024trajectory`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Kobayashi et al. (`kobayashi2023modeling`) Modeling and generating human mobility trajectories using transformer with day encoding (`kobayashi2023modeling`) 1st International Workshop on the Human, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - Traj-LLM (`lan2024traj`) Traj-llm: A new exploration for empowering trajectory prediction with pre-trained large language models (`lan2024traj`) IEEE Transactions on Intelligent Vehicle, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - TrajLearn (`nadiri2025trajlearn`) TrajLearn: Trajectory Prediction Learning using Deep Generative Models (`nadiri2025trajlearn`) ACM Transactions on Spatial Algorithms a, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - MobilityGPT (`mobilitygpt2024`) MobilityGPT: Enhanced Human Mobility Modeling with a GPT model. [[paper]](https://arxiv.org/abs/2402.03264)
+  - GeoFormer (`solatorio2023geoformer`) GeoFormer: predicting human mobility using generative pre-trained transformer (GPT). 2023. [[paper]](https://dl.acm.org/doi/10.1145/3615894.3628499)
+  - LMTAD (`mbuya2024trajectory`) Trajectory Anomaly Detection with Language Models. SIGSPATIAL, 2024. [[paper]](https://dl.acm.org/doi/10.1145/3678717.3691257) 
+  - Kobayashi et al. (`kobayashi2023modeling`) Modeling and generating human mobility trajectories using transformer with day encoding. 2023. [[paper]](https://dl.acm.org/doi/10.1145/3615894.3628506) 
+  - Traj-LLM (`lan2024traj`) Traj-llm: A new exploration for empowering trajectory prediction with pre-trained large language models. IEEE Transactions on Intelligent Vehicle, 2024. [[paper]](https://arxiv.org/abs/2405.04909)
+  - TrajLearn (`nadiri2025trajlearn`) TrajLearn: Trajectory Prediction Learning using Deep Generative Models. ACM Transactions on Spatial Algorithms a, 2025. [[paper]](https://arxiv.org/abs/2501.00184) 
 
 #### 1.1.2 LLM
-- GNPR-SID (`wang2025generativekdd25`) Generative Next POI Recommendation with Semantic ID (`wang2025generativekdd25`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-- RHYTHM (`he2025rhythm`) RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility (`he2025rhythm`) arXiv preprint arXiv:2509.23115, 2025. [[PDF]](TBD) [[Link]](TBD)
-- MobGLM (`zhang2024mobglm`) MobGLM: A Large Language Model for Synthetic Human Mobility Generation (`zhang2024mobglm`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-- MobilityGPT (`mobilitygpt2024`)
-- Geo-Llama (`li2024geo`) Geo-llama: Leveraging llms for human mobility trajectory generation with spatiotemporal constraints (`li2024geo`) arXiv preprint arXiv:2408.13918, 2024. [[PDF]](TBD) [[Link]](TBD)
+- GNPR-SID (`wang2025generativekdd25`) Generative Next POI Recommendation with Semantic ID. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3736981) 
+- RHYTHM (`he2025rhythm`) RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility. arXiv, 2025. [[paper]](https://arxiv.org/abs/2509.23115) 
+- MobGLM (`zhang2024mobglm`) MobGLM: A Large Language Model for Synthetic Human Mobility Generation. SIGSPATIAL, 2024. [[paper]](https://doi.org/10.1145/3678717.3691311)
+- MobilityGPT (`mobilitygpt2024`) MobilityGPT: Enhanced Human Mobility Modeling with a GPT model. [[paper]](https://arxiv.org/abs/2402.03264)
+- Geo-Llama (`li2024geo`) Geo-llama: Leveraging llms for human mobility trajectory generation with spatiotemporal constraints. arXiv, 2024. [[paper]](https://arxiv.org/abs/2408.13918) 
 
 
 
@@ -105,40 +107,45 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 ### 1.2 Encoding
 
 #### 1.2.1 Attention-based
-- Deepmove (`feng2018deepmove`) Deepmove: Predicting human mobility with attentional recurrent networks (`feng2018deepmove`) WWW, 2018. [[PDF]](TBD) [[Link]](TBD)
-- STRNN (`liu2016predicting`) Predicting the next location: A recurrent model with spatial and temporal contexts (`liu2016predicting`) AAAI, 2016. [[PDF]](TBD) [[Link]](TBD)
-- LSTPM (`sun2020go`) Where to go next: Modeling long-and short-term user preferences for point-of-interest recommendation (`sun2020go`) AAAI, 2020. [[PDF]](TBD) [[Link]](TBD)
-- STAN (`Luo2021stan`) STAN: Spatio-Temporal Attention Network for Next Location Recommendation (`Luo2021stan`) WWW, 2021. [[PDF]](TBD) [[Link]](https://doi.org/10.1145/3442381.3449998)
+
+
+- Deepmove (`feng2018deepmove`) DeepMove: Predicting human mobility with attentional recurrent networks. WWW, 2018. [[paper]](https://doi.org/10.1145/3178876.3186058) 
+- STRNN (`liu2016predicting`) Predicting the next location: A recurrent model with spatial and temporal contexts. AAAI, 2016. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/9971) 
+- LSTPM (`sun2020go`) Where to go next: Modeling long-and short-term user preferences for point-of-interest recommendation. AAAI, 2020. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/5353) 
+- STAN (`Luo2021stan`) STAN: Spatio-Temporal Attention Network for Next Location Recommendation. WWW, 2021. [[paper]](https://doi.org/10.1145/3442381.3449998) 
+
 
 #### 1.2.2 Pretrained LM
 
 - **Masked LM**
-  - LP-BERT (`suzuki2024cross`) Cross-city-aware Spatiotemporal BERT (`suzuki2024cross`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - TraceBERT (`crivellari2022tracebert`) Tracebert—a feasibility study on reconstructing spatial--temporal gaps from incomplete motion trajectories via bert training process on discrete location sequences (`crivellari2022tracebert`) Sensors, 2022. [[PDF]](TBD) [[Link]](TBD)
-  - CTLE (`lin2021pre`)
-  - GREEN (`zhou2025grid`)
+  - LP-BERT (`suzuki2024cross`) Cross-city-aware Spatiotemporal BERT. SIGSPATIAL, 2024. [[paper]](https://dl.acm.org/doi/10.1145/3681771.3699915) 
+  - TraceBERT (`crivellari2022tracebert`) Tracebert—a feasibility study on reconstructing spatial--temporal gaps from incomplete motion trajectories via bert training process on discrete location sequences. Sensors, 2022. [[paper]](https://www.mdpi.com/1424-8220/22/4/1682) 
+  - CTLE (`lin2021pre`) Pre-training context and time aware location embeddings from spatial-temporal trajectories for user next location prediction. AAAI, 2021. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/16548)
+  - GREEN (`zhou2025grid`) Grid and road expressions are complementary for trajectory representation learning. KDD, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709272) 
+
 
 - **Causal Attention**
-  - MobTCast (`xue2021mobtcast`) MobTCast: Leveraging auxiliary trajectory forecasting for human mobility prediction (`xue2021mobtcast`) NeurIPS, 2021. [[PDF]](TBD) [[Link]](TBD)
-  - MoveSim (`feng2020learning`)
-  - AttnMove (`xia2021attnmove`) Attnmove: History enhanced trajectory recovery via attentional network (`xia2021attnmove`) AAAI, 2021. [[PDF]](TBD) [[Link]](TBD)
+  - MobTCast (`xue2021mobtcast`) MobTCast: Leveraging auxiliary trajectory forecasting for human mobility prediction. NeurIPS, 2021. [[paper]](https://arxiv.org/abs/2110.01401) 
+  - AttnMove (`xia2021attnmove`) Attnmove: History enhanced trajectory recovery via attentional network. AAAI, 2021. [[paper]](https://arxiv.org/abs/2101.00646) 
 
 #### 1.2.3 LLM
-- LLMEmb (`liu2025llmemb`) Llmemb: Large language model can be a good embedding generator for sequential recommendation (`liu2025llmemb`) AAAI, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Mobility-LLM (`mobilityllm2024`) Mobility-llm: Learning visiting intentions and travel preference from human mobility data with large language models (`mobilityllm2024`) NeurIPS, 2024. [[PDF]](TBD) [[Link]](TBD)
-- NextLocLLM (`nextlocllm2025`)
-- GSTM-HMU (`luo2025gstm`) GSTM-HMU: Generative Spatio-Temporal Modeling for Human Mobility Understanding (`luo2025gstm`) arXiv preprint arXiv:2509.19135, 2025. [[PDF]](TBD) [[Link]](TBD)
+- LLMEmb (`liu2025llmemb`) Llmemb: Large language model can be a good embedding generator for sequential recommendation. AAAI, 2025. [[paper]](https://arxiv.org/abs/2409.19925) 
+- Mobility-LLM (`mobilityllm2024`) Mobility-llm: Learning visiting intentions and travel preference from human mobility data with large language models. NeurIPS, 2024. [[paper]](https://arxiv.org/abs/2411.00823?) 
+- NextLocLLM (`nextlocllm2025`) NextlocLLM: Next Location Prediction Using LLMs. arXiv, 2025. [[paper]](https://arxiv.org/html/2410.09129v1)
+- GSTM-HMU (`luo2025gstm`) GSTM-HMU: Generative Spatio-Temporal Modeling for Human Mobility Understanding. arXiv, 2025. [[paper]](https://arxiv.org/abs/2509.19135)
+
 
 #### 1.2.4 Diffusion Model
-- Cardiff (`guo2025leveraging`) Leveraging the Spatial Hierarchy: Coarse-to-fine Trajectory Generation via Cascaded Hybrid Diffusion (`guo2025leveraging`) arXiv preprint arXiv:2507.13366, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Diff-POI (`qin2023diffusion`) A diffusion model for poi recommendation (`qin2023diffusion`) ACM Transactions on Information Systems, 2023. [[PDF]](TBD) [[Link]](TBD)
-- AutoSTDiff (`xu2025autostdiff`) AutoSTDiff: Autoregressive Spatio-Temporal Denoising Diffusion Model for Asynchronous Trajectory Generation (`xu2025autostdiff`) SIAM, 2025. [[PDF]](TBD) [[Link]](TBD)
-- DiffMove (`long2025diffmove`) DiffMove: Group Mobility Tendency Enhanced Trajectory Recovery via Diffusion Model (`long2025diffmove`) arXiv preprint arXiv:2503.18302, 2025. [[PDF]](TBD) [[Link]](TBD)
-- GenMove (`long2025one`) One Fits All: General Mobility Trajectory Modeling via Masked Conditional Diffusion (`long2025one`) arXiv preprint arXiv:2501.13347, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Diff-DGMN (`zuo2024diff`) Diff-dgmn: A diffusion-based dual graph multi-attention network for poi recommendation (`zuo2024diff`) IEEE Internet of Things Journal, 2024. [[PDF]](TBD) [[Link]](TBD)
-- DCPR (`long2024diffusion`) Diffusion-based cloud-edge-device collaborative learning for next POI recommendations (`long2024diffusion`) KDD, 2024. [[PDF]](TBD) [[Link]](TBD)
-- Traveller (`luo2025traveller`) Traveller: Travel-Pattern Aware Trajectory Generation via Autoregressive Diffusion Models (`luo2025traveller`) Information Fusion, 2025. [[PDF]](TBD) [[Link]](TBD)
-- TrajGDM (`chu2024simulating`) Simulating human mobility with a trajectory generation framework based on diffusion model (`chu2024simulating`) International Journal of Geographical In, 2024. [[PDF]](TBD) [[Link]](TBD)
+- Cardiff (`guo2025leveraging`) Leveraging the Spatial Hierarchy: Coarse-to-fine Trajectory Generation via Cascaded Hybrid Diffusion. arXiv preprint arXiv:2507.13366, 2025. [[paper]](https://arxiv.org/abs/2507.13366) 
+- Diff-POI (`qin2023diffusion`) A Diffusion Model for POI Recommendation. ACM Transactions on Information Systems, 2023. [[paper]](https://doi.org/10.1145/3624475) 
+- AutoSTDiff (`xu2025autostdiff`) AutoSTDiff: Autoregressive Spatio-Temporal Denoising Diffusion Model for Asynchronous Trajectory Generation. SIAM SDM, 2025. [[paper]](https://doi.org/10.1137/1.9781611978520.58) 
+- DiffMove (`long2025diffmove`) DiffMove: Group Mobility Tendency Enhanced Trajectory Recovery via Diffusion Model. arXiv preprint arXiv:2503.18302, 2025. [[paper]](https://arxiv.org/abs/2503.18302) 
+- GenMove (`long2025one`) One Fits All: General Mobility Trajectory Modeling via Masked Conditional Diffusion. arXiv preprint arXiv:2501.13347, 2025. [[paper]](https://arxiv.org/abs/2501.13347) 
+- Diff-DGMN (`zuo2024diff`) Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation. IEEE Internet of Things Journal, 2024. [[paper]](https://doi.org/10.1109/JIOT.2024.3446048) 
+- DCPR (`long2024diffusion`) Diffusion-Based Cloud-Edge-Device Collaborative Learning for Next POI Recommendations. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671743) 
+- Traveller (`luo2025traveller`) Traveller: Travel-Pattern Aware Trajectory Generation via Autoregressive Diffusion Models. Information Fusion, 2025. [[paper]](https://doi.org/10.1016/j.inffus.2025.103766) 
+- TrajGDM (`chu2024simulating`) Simulating Human Mobility with a Trajectory Generation Framework Based on Diffusion Model. International Journal of Geographical Information Science, 2024. [[paper]](https://doi.org/10.1080/13658816.2024.2312199) 
+
 
 
 ### 1.3 Prompting
@@ -147,41 +154,43 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 #### 1.3.1 LLM
 
 - **As Representor**
-  - Poi-enhancer (`cheng2025poi`) Poi-enhancer: An llm-based semantic enhancement framework for poi representation learning (`cheng2025poi`) AAAI, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - LLM-Mob (`wang2023would`) Where would i go next? large language models as human mobility predictors (`wang2023would`) arXiv preprint arXiv:2308.15197, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - TrajCogn (`zhou2024trajcogn`) TrajCogn: Leveraging LLMs for Cognizing Movement Patterns and Travel Purposes from Trajectories (`zhou2024trajcogn`) arXiv preprint arXiv:2405.12459, 2024. [[PDF]](TBD) [[Link]](TBD)
+  - Poi-enhancer (`cheng2025poi`) Poi-enhancer: An LLM-based semantic enhancement framework for POI representation learning. AAAI, 2025. [[paper]](https://doi.org/10.1609/aaai.v39i11.33252)
+  - LLM-Mob (`wang2023would`) Where would i go next? large language models as human mobility predictors. arXiv preprint arXiv:2308.15197, 2023. [[paper]](https://arxiv.org/abs/2308.15197)
+  - TrajCogn (`zhou2024trajcogn`) TrajCogn: Leveraging LLMs for Cognizing Movement Patterns and Travel Purposes from Trajectories. arXiv preprint arXiv:2405.12459, 2024. [[paper]](https://arxiv.org/abs/2405.12459)
+
 
 - **As Predictor**
-  - TPP-LLM (`liu2024tpp`) Tpp-llm: Modeling temporal point processes by efficiently fine-tuning large language models (`liu2024tpp`) arXiv preprint arXiv:2410.02062, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - CoMaPOI (`zhong2025comapoi`) CoMaPOI: A Collaborative Multi-Agent Framework for Next POI Prediction Bridging the Gap Between Trajectory and Language (`zhong2025comapoi`) SIGIR, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - AgentMove (`feng2024agentmove`) Agentmove: A large language model based agentic framework for zero-shot next location prediction (`feng2024agentmove`) arXiv preprint arXiv:2408.13986, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Feng et al. (`feng2024move`) Where to move next: Zero-shot generalization of llms for next poi recommendation (`feng2024move`) 2024 ieee conference on artificial intel, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - LLM4Poi (`li2024large`) Large language models for next point-of-interest recommendation (`li2024large`) SIGIR, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - CSA-Rec (`wang2025collaborative`) Collaborative Semantics-Assisted Large Language Models for Next POI Recommendation (`wang2025collaborative`) ICASSP, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - LAMP (`balsebre2024lamp`) LAMP: A language model on the map (`balsebre2024lamp`) arXiv preprint arXiv:2403.09059, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Zhang et al. (`zhang2023large`) Large Language Models for Spatial Trajectory Patterns Mining.(2023) (`zhang2023large`) arXiv preprint arXiv:2310.04942, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - Mo et al. (`mo2023large`) Large language models for travel behavior prediction (`mo2023large`) arXiv preprint arXiv:2312.00819, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - POI GPT (`kim2024poi`) POI GPT: Extracting POI information from social media text data (`kim2024poi`) The International Archives of the Photog, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Chen et al. (`chen2025toward`) Toward interactive next location prediction driven by large language models (`chen2025toward`) IEEE Transactions on Computational Socia, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - DelayPTC-LLM (`chen2024delayptc`) Delayptc-llm: Metro passenger travel choice prediction under train delays with large language models (`chen2024delayptc`) arXiv preprint arXiv:2410.00052, 2024. [[PDF]](TBD) [[Link]](TBD)
+  - TPP-LLM (`liu2024tpp`) Tpp-llm: Modeling temporal point processes by efficiently fine-tuning large language models. arXiv preprint arXiv:2410.02062, 2024. [[paper]](https://arxiv.org/abs/2410.02062)
+  - CoMaPOI (`zhong2025comapoi`) CoMaPOI: A Collaborative Multi-Agent Framework for Next POI Prediction Bridging the Gap Between Trajectory and Language. SIGIR, 2025. [[paper]](https://doi.org/10.1145/3726302.3729930)
+  - AgentMove (`feng2024agentmove`) Agentmove: A large language model based agentic framework for zero-shot next location prediction. arXiv preprint arXiv:2408.13986, 2024. [[paper]](https://arxiv.org/abs/2408.13986)
+  - Feng et al. (`feng2024move`) Where to move next: Zero-shot generalization of llms for next poi recommendation. IEEE CAI, 2024. [[paper]](https://doi.org/10.1109/CAI59869.2024.00277)
+  - LLM4Poi (`li2024large`) Large language models for next point-of-interest recommendation. SIGIR, 2024. [[paper]](https://doi.org/10.1145/3626772.3657840)
+  - CSA-Rec (`wang2025collaborative`) Collaborative Semantics-Assisted Large Language Models for Next POI Recommendation. ICASSP, 2025. [[paper]](https://doi.org/10.1109/ICASSP49660.2025.10889625)
+  - LAMP (`balsebre2024lamp`) LAMP: A language model on the map. arXiv preprint arXiv:2403.09059, 2024. [[paper]](https://arxiv.org/abs/2403.09059)
+  - Zhang et al. (`zhang2023large`) Large Language Models for Spatial Trajectory Patterns Mining.(2023). arXiv preprint arXiv:2310.04942, 2023. [[paper]](https://arxiv.org/abs/2310.04942)
+  - Mo et al. (`mo2023large`) Large language models for travel behavior prediction. arXiv preprint arXiv:2312.00819, 2023. [[paper]](https://arxiv.org/abs/2312.00819)
+  - POI GPT (`kim2024poi`) POI GPT: Extracting POI information from social media text data. ISPRS Archives, 2024. [[paper]](https://doi.org/10.5194/isprs-archives-XLVIII-4-W10-2024-113-2024)
+  - Chen et al. (`chen2025toward`) Toward interactive next location prediction driven by large language models. IEEE Transactions on Computational Social Systems, 2025. [[paper]](https://doi.org/10.1109/TCSS.2024.3522965)
+  - DelayPTC-LLM (`chen2024delayptc`) Delayptc-llm: Metro passenger travel choice prediction under train delays with large language models. arXiv preprint arXiv:2410.00052, 2024. [[paper]](https://arxiv.org/abs/2410.00052)
+
+
 
 - **Generator**
-  - Liu et al. (`liu2025aligning`) Aligning LLM agents with human learning and adjustment behavior: a dual agent approach (`liu2025aligning`) arXiv preprint arXiv:2511.00993, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - CoPB (`shao2024chain`) Chain-of-planned-behaviour workflow elicits few-shot mobility generation in llms (`shao2024chain`) arXiv preprint arXiv:2402.09836, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Liu et al. (`liu2023can`) Can language models be used for real-world urban-delivery route optimization? (`liu2023can`) The Innovation, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - Bhandari et al. (`bhandari2024urban`) Urban mobility assessment using llms (`bhandari2024urban`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Zheng et al. (`zheng2025urban`) Urban planning in the era of large language models (`zheng2025urban`) Nature computational science, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - Liu et al. (`liu2025aligning`) Aligning LLM agents with human learning and adjustment behavior: a dual agent approach. arXiv, 2025. [[paper]](https://arxiv.org/abs/2511.00993) 
+  - CoPB (`shao2024chain`) Chain-of-planned-behaviour workflow elicits few-shot mobility generation in llms. arXiv, 2024. [[paper]](https://arxiv.org/abs/2402.09836) 
+  - Liu et al. (`liu2023can`) Can language models be used for real-world urban-delivery route optimization?. The Innovation, 2023. [[paper]](https://www.sciencedirect.com/science/article/pii/S2666675823001480) 
+  - Bhandari et al. (`bhandari2024urban`) Urban mobility assessment using llms. SIGSPATIAL, 2024. [[paper]](https://arxiv.org/abs/2409.00063) 
+  - Zheng et al. (`zheng2025urban`) Urban planning in the era of large language models. Nature computational science, 2025. [[paper]](https://www.nature.com/articles/s43588-025-00846-1) 
 
 - **LLM Agents**
-  - LLM-HABG (`meng2025behavior`) Behavior Generation for Heterogeneous Agents in Urban Simulation Deduction: A Multi-Stage Approach Based on Large Language Models (`meng2025behavior`) CCSSTA, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - PathGPT (`marcelyn2025pathgpt`) PathGPT: Leveraging Large Language Models for Personalized Route Generation (`marcelyn2025pathgpt`) arXiv preprint arXiv:2504.05846, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - LLMTraveler (`wang2024ai`) Ai-driven day-to-day route choice (`wang2024ai`) arXiv preprint arXiv:2412.03338, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - GATSim (`liu2025gatsim`) GATSim: Urban Mobility Simulation with Generative Agents (`liu2025gatsim`) arXiv preprint arXiv:2506.23306, 2025. [[PDF]](TBD) [[Link]](TBD)
-
-  - MobAgent (`li2024more`) Be more real: Travel diary generation using llm agents and individual profiles (`li2024more`) arXiv preprint arXiv:2407.18932, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - CitySim (`bougie2025citysim`) CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation (`bougie2025citysim`) arXiv preprint arXiv:2506.21805, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - TravelPlanner (`xie2024travelplanner`) Travelplanner: A benchmark for real-world planning with language agents (`xie2024travelplanner`) arXiv preprint arXiv:2402.01622, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - IDM-GPT (`yang2025independent`) Independent mobility gpt (idm-gpt): A self-supervised multi-agent large language model framework for customized traffic mobility analysis using machine learning models (`yang2025independent`) arXiv preprint arXiv:2502.18652, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - LLM-HABG (`meng2025behavior`) Behavior Generation for Heterogeneous Agents in Urban Simulation Deduction: A Multi-Stage Approach Based on Large Language Models. CCSSTA, 2025. [[paper]](https://doi.org/10.1109/IEEECONF65522.2025.11136878)
+  - PathGPT (`marcelyn2025pathgpt`) PathGPT: Leveraging Large Language Models for Personalized Route Generation. arXiv preprint arXiv:2504.05846, 2025. [[paper]](https://arxiv.org/abs/2504.05846)
+  - LLMTraveler (`wang2024ai`) Ai-driven day-to-day route choice. arXiv preprint arXiv:2412.03338, 2024. [[paper]](https://arxiv.org/abs/2412.03338)
+  - GATSim (`liu2025gatsim`) GATSim: Urban Mobility Simulation with Generative Agents. arXiv preprint arXiv:2506.23306, 2025. [[paper]](https://arxiv.org/abs/2506.23306)
+  - MobAgent (`li2024more`) Be more real: Travel diary generation using llm agents and individual profiles. arXiv preprint arXiv:2407.18932, 2024. [[paper]](https://arxiv.org/abs/2407.18932)
+  - CitySim (`bougie2025citysim`) CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation. arXiv preprint arXiv:2506.21805, 2025. [[paper]](https://arxiv.org/abs/2506.21805)
+  - TravelPlanner (`xie2024travelplanner`) Travelplanner: A benchmark for real-world planning with language agents. arXiv preprint arXiv:2402.01622, 2024. [[paper]](https://arxiv.org/abs/2402.01622)
+  - IDM-GPT (`yang2025independent`) Independent mobility gpt (idm-gpt): A self-supervised multi-agent large language model framework for customized traffic mobility analysis using machine learning models. arXiv preprint arXiv:2502.18652, 2025. [[paper]](https://arxiv.org/abs/2502.18652)
 
 
 
@@ -192,78 +201,77 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 #### 2.1.1 Pretrained LM
 
 - **Encoder-based (BERT-like)**
-  - Giuliari (`giuliari2021transformer`) Transformer networks for trajectory forecasting (`giuliari2021transformer`) ICPR, 2021. [[PDF]](TBD) [[Link]](TBD)
-  - BERT4Traj (`yang2025bert4traj`) BERT4Traj: Transformer Based Trajectory Reconstruction for Sparse Mobility Data (`yang2025bert4traj`) arXiv preprint arXiv:2507.03062, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - Giuliari (`giuliari2021transformer`) Transformer networks for trajectory forecasting. ICPR, 2021. [[paper]](https://doi.org/10.1109/ICPR48806.2021.9412190)
+  - BERT4Traj (`yang2025bert4traj`) BERT4Traj: Transformer Based Trajectory Reconstruction for Sparse Mobility Data. arXiv preprint arXiv:2507.03062, 2025. [[paper]](https://arxiv.org/abs/2507.03062)
 
 - **Decoder-based (GPT-like)**
-  - MotionLM (`seff2023motionlm`) Motionlm: Multi-agent motion forecasting as language modeling (`seff2023motionlm`) ICCV, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - RAW (`zhang2023regions`) Regions are who walk them: a large pre-trained spatiotemporal model based on human mobility for ubiquitous urban sensing (`zhang2023regions`) arXiv preprint arXiv:2311.10471, 2023. [[PDF]](TBD) [[Link]](TBD)
+  - MotionLM (`seff2023motionlm`) MotionLM: Multi-agent motion forecasting as language modeling. ICCV, 2023. [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Seff_MotionLM_Multi-Agent_Motion_Forecasting_as_Language_Modeling_ICCV_2023_paper.pdf)
+  - RAW (`zhang2023regions`) Regions are who walk them: a large pre-trained spatiotemporal model based on human mobility for ubiquitous urban sensing. arXiv preprint arXiv:2311.10471, 2023. [[paper]](https://arxiv.org/abs/2311.10471)
 
 - **Encoder–Decoder-based**
-  - UniTraj (`zhu2024unitraj`) Unitraj: Learning a universal trajectory foundation model from billion-scale worldwide traces (`zhu2024unitraj`) arXiv preprint arXiv:2411.03859, 2024. [[PDF]](TBD) [[Link]](TBD)
+  - UniTraj (`zhu2024unitraj`) UniTraj: Learning a universal trajectory foundation model from billion-scale worldwide traces. arXiv preprint arXiv:2411.03859, 2024. [[paper]](https://arxiv.org/abs/2411.03859)
 
 #### 2.1.2 LLM
-- LMTraj (`bae2024can`) Can language beat numerical regression? language-based multimodal trajectory prediction (`bae2024can`) CVPR, 2024. [[PDF]](TBD) [[Link]](TBD)
-- RouteLLM (`hallgarten2025routellm`) RouteLLM: A Large Language Model with Native Route Context Understanding to Enable Context-Aware Reasoning (`hallgarten2025routellm`) IMWUT, 2025. [[PDF]](TBD) [[Link]](TBD)
-- QT-Mob (`chen2025enhancing`) Enhancing Large Language Models for Mobility Analytics with Semantic Location Tokenization (`chen2025enhancing`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-- CAMS (`du2025cams`) CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation (`du2025cams`) arXiv preprint arXiv:2506.13599, 2025. [[PDF]](TBD) [[Link]](TBD)
-- AutoTimes (`liu2024autotimes`)  <!-- traffic time series --> Autotimes: Autoregressive time series forecasters via large language models (`liu2024autotimes`) NeurIPS, 2024. [[PDF]](TBD) [[Link]](TBD)
+- LMTraj (`bae2024can`) Can language beat numerical regression? language-based multimodal trajectory prediction. CVPR, 2024. [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Bae_Can_Language_Beat_Numerical_Regression_Language-Based_Multimodal_Trajectory_Prediction_CVPR_2024_paper.pdf)
+- RouteLLM (`hallgarten2025routellm`) RouteLLM: A Large Language Model with Native Route Context Understanding to Enable Context-Aware Reasoning. IMWUT, 2025. [[paper]](https://doi.org/10.1145/3749552)
+- QT-Mob (`chen2025enhancing`) Enhancing Large Language Models for Mobility Analytics with Semantic Location Tokenization. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3736937)
+- CAMS (`du2025cams`) CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation. arXiv preprint arXiv:2506.13599, 2025. [[paper]](https://arxiv.org/abs/2506.13599)
+- AutoTimes (`liu2024autotimes`) AutoTimes: Autoregressive time series forecasters via large language models. NeurIPS, 2024. [[paper]](https://openreview.net/forum?id=FOvZztnp1H)
 
 
 ### 2.2 Encoding
 
 #### 2.2.1 Pretrained LM
-- BERT4Traj (`yang2025bert4traj`)
-- EETG-SVAE (`zhang2025end`) End-to-end Trajectory Generation-Contrasting Deep Generative Models and Language Models (`zhang2025end`) ACM Transactions on Spatial Algorithms a, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Musleh et al. (`musleh2022towards`) Towards a unified deep model for trajectory analysis (`musleh2022towards`) SIGSPATIAL, 2022. [[PDF]](TBD) [[Link]](TBD)
-- UrbanGPT (`li2024urbangpt`) Urbangpt: Spatio-temporal large language models (`li2024urbangpt`) KDD, 2024. [[PDF]](TBD) [[Link]](TBD)
-- UniST (`yuan2024unist`) Unist: A prompt-empowered universal model for urban spatio-temporal prediction (`yuan2024unist`) KDD, 2024. [[PDF]](TBD) [[Link]](TBD)
-- FlashST (`li2024flashst`) Flashst: A simple and universal prompt-tuning framework for traffic prediction (`li2024flashst`) arXiv preprint arXiv:2405.17898, 2024. [[PDF]](TBD) [[Link]](TBD)
-- Traffic-Twitter Transformer (`tsai2022traffic`) Traffic-twitter transformer: A nature language processing-joined framework for network-wide traffic forecasting (`tsai2022traffic`) arXiv preprint arXiv:2206.11078, 2022. [[PDF]](TBD) [[Link]](TBD)
-- FlowDistill (`yu2025flowdistill`) FlowDistill: Scalable Traffic Flow Prediction via Distillation from LLMs (`yu2025flowdistill`) arXiv preprint arXiv:2504.02094, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Cao et al. (`cao2021bert`) BERT-based deep spatial-temporal network for taxi demand prediction (`cao2021bert`) T-ITS, 2021. [[PDF]](TBD) [[Link]](TBD)
-- Ma et al. (`ma2025urban`) Urban rail transit passenger flow prediction using large language model under multi-source spatiotemporal data fusion (`ma2025urban`) Physica A: Statistical Mechanics and its, 2025. [[PDF]](TBD) [[Link]](TBD)
-- TrafficBERT (`jin2021trafficbert`) TrafficBERT: Pre-trained model with large-scale data for long-range traffic flow forecasting (`jin2021trafficbert`) Expert Systems with Applications, 2021. [[PDF]](TBD) [[Link]](TBD)
-- ST-LLM+ (`liu2025st`) ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction (`liu2025st`) IEEE Transactions on Knowledge and Data, 2025. [[PDF]](TBD) [[Link]](TBD)
-- MDTI (`liu2025multimodal`) Multimodal Trajectory Representation Learning for Travel Time Estimation (`liu2025multimodal`) arXiv preprint arXiv:2510.05840, 2025. [[PDF]](TBD) [[Link]](TBD)
+- BERT4Traj (`yang2025bert4traj`) BERT4Traj: Transformer Based Trajectory Reconstruction for Sparse Mobility Data. arXiv preprint arXiv:2507.03062, 2025. [[paper]](https://arxiv.org/abs/2507.03062)
+- EETG-SVAE (`zhang2025end`) End-to-end Trajectory Generation - Contrasting Deep Generative Models and Language Models. ACM Transactions on Spatial Algorithms and Systems, 2025. [[paper]](https://doi.org/10.1145/3716892)
+- Musleh et al. (`musleh2022towards`) Towards a Unified Deep Model for Trajectory Analysis. SIGSPATIAL, 2022. [[paper]](https://doi.org/10.1145/3557915.3565529)
+- UrbanGPT (`li2024urbangpt`) UrbanGPT: Spatio-Temporal Large Language Models. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671578)
+- UniST (`yuan2024unist`) UniST: A Prompt-Empowered Universal Model for Urban Spatio-Temporal Prediction. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671662)
+- FlashST (`li2024flashst`) FlashST: A Simple and Universal Prompt-Tuning Framework for Traffic Prediction. arXiv preprint arXiv:2405.17898, 2024. [[paper]](https://arxiv.org/abs/2405.17898)
+- Traffic-Twitter Transformer (`tsai2022traffic`) Traffic-Twitter Transformer: A Nature Language Processing-joined Framework for Network-wide Traffic Forecasting. arXiv preprint arXiv:2206.11078, 2022. [[paper]](https://arxiv.org/abs/2206.11078)
+- FlowDistill (`yu2025flowdistill`) FlowDistill: Scalable Traffic Flow Prediction via Distillation from LLMs. arXiv preprint arXiv:2504.02094, 2025. [[paper]](https://arxiv.org/abs/2504.02094)
+- Cao et al. (`cao2021bert`) BERT-Based Deep Spatial-Temporal Network for Taxi Demand Prediction. T-ITS, 2021. [[paper]](https://doi.org/10.1109/TITS.2021.3122114)
+- Ma et al. (`ma2025urban`) Urban rail transit passenger flow prediction using large language model under multi-source spatiotemporal data fusion. Physica A: Statistical Mechanics and its Applications, 2025. [[paper]](https://doi.org/10.1016/j.physa.2025.130823)
+- TrafficBERT (`jin2021trafficbert`) TrafficBERT: Pre-trained model with large-scale data for long-range traffic flow forecasting. Expert Systems with Applications, 2021. [[paper]](https://doi.org/10.1016/j.eswa.2021.115738)
+- ST-LLM+ (`liu2025st`) ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction. IEEE Transactions on Knowledge and Data Engineering, 2025. [[paper]](https://doi.org/10.1109/TKDE.2025.3570705)
+- MDTI (`liu2025multimodal`) Multimodal Trajectory Representation Learning for Travel Time Estimation. arXiv preprint arXiv:2510.05840, 2025. [[paper]](https://arxiv.org/abs/2510.05840)
+
 
 #### 2.2.2 LLM
-- TPLLM (`ren2024tpllm`) TPLLM: A traffic prediction framework based on pretrained large language models (`ren2024tpllm`) arXiv preprint arXiv:2403.02221, 2024. [[PDF]](TBD) [[Link]](TBD)
-- LLM-TFP (`cheng2025llm`) LLM-TFP: Integrating large language models with spatio-temporal features for urban traffic flow prediction (`cheng2025llm`) Applied Soft Computing, 2025. [[PDF]](TBD) [[Link]](TBD)
-- NextLocLLM (`nextlocllm2025`)
-- Liao et al. (`liao2025next`) Next-Generation Travel Demand Modeling with a Generative Framework for Household Activity Coordination (`liao2025next`) arXiv preprint arXiv:2507.08871, 2025. [[PDF]](TBD) [[Link]](TBD)
+- TPLLM (`ren2024tpllm`) TPLLM: A traffic prediction framework based on pretrained large language models. arXiv preprint arXiv:2403.02221, 2024. [[paper]](https://arxiv.org/abs/2403.02221) 
+- LLM-TFP (`cheng2025llm`) LLM-TFP: Integrating large language models with spatio-temporal features for urban traffic flow prediction. Applied Soft Computing, 2025. [[paper]](https://doi.org/10.1016/j.asoc.2025.113174) 
+- Liao et al. (`liao2025next`) Next-Generation Travel Demand Modeling with a Generative Framework for Household Activity Coordination. arXiv preprint arXiv:2507.08871, 2025. [[paper]](https://arxiv.org/abs/2507.08871) 
 
 
 ### 2.3 Prompting
 
 #### 2.3.1 LLM
 - **Representation and Mining**
-  - Zhang et al. (`zhang2024large`) Large language models for spatial trajectory patterns mining (`zhang2024large`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - GPT-J (`ji2024evaluating`) Evaluating the Effectiveness of Large Language Models in Representing and Understanding Movement Trajectories (`ji2024evaluating`) arXiv preprint arXiv:2409.00335, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - GeoLLM (`manvi2023geollm`) Geollm: Extracting geospatial knowledge from large language models (`manvi2023geollm`) arXiv preprint arXiv:2310.06213, 2023. [[PDF]](TBD) [[Link]](TBD)
-  - AuxMobLCast (`xue2022leveraging`) Leveraging language foundation models for human mobility forecasting (`xue2022leveraging`) SIGSPATIAL, 2022. [[PDF]](TBD) [[Link]](TBD)
-  - Wang et al. (`wang2025event`) Event-aware analysis of cross-city visitor flows using large language models and social media data (`wang2025event`) arXiv preprint arXiv:2505.03847, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - Zhang et al. (`zhang2024large`) Large language models for spatial trajectory patterns mining. SIGSPATIAL, 2024. [[paper]](https://doi.org/10.1145/3681765.3698467) 
+  - GPT-J (`ji2024evaluating`) Evaluating the Effectiveness of Large Language Models in Representing and Understanding Movement Trajectories. arXiv preprint arXiv:2409.00335, 2024. [[paper]](https://arxiv.org/abs/2409.00335) 
+  - GeoLLM (`manvi2023geollm`) Geollm: Extracting geospatial knowledge from large language models. arXiv preprint arXiv:2310.06213, 2023. [[paper]](https://arxiv.org/abs/2310.06213) 
+  - AuxMobLCast (`xue2022leveraging`) Leveraging language foundation models for human mobility forecasting. SIGSPATIAL, 2022. [[paper]](https://doi.org/10.1145/3557915.3561026) 
+  - Wang et al. (`wang2025event`) Event-aware analysis of cross-city visitor flows using large language models and social media data. arXiv preprint arXiv:2505.03847, 2025. [[paper]](https://arxiv.org/abs/2505.03847) 
 
 - **Prediction**
-  - LLM-MPE (`liang2024exploring`) Exploring large language models for human mobility prediction under public events (`liang2024exploring`) Computers, Environment and Urban Systems, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - STCInterLLM (`li2025causal`) Causal Intervention Is What Large Language Models Need for Spatio-Temporal Forecasting (`li2025causal`) IEEE Transactions on Cybernetics, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - xTP-LLM (`guo2024towards`) Towards explainable traffic flow prediction with large language models (`guo2024towards`) Communications in Transportation Researc, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - Cai et al. (`cai2024temporal`) Temporal-Spatial Traffic Flow Prediction Model Based on Prompt Learning (`cai2024temporal`) ISPRS, 2024. [[PDF]](TBD) [[Link]](TBD)
-  - LLM4PT (`wu2025llm4pt`) LLM4PT: A large language model-based system for flexible and explainable public transit demand prediction (`wu2025llm4pt`) Computers & Industrial Engineering, 2025. [[PDF]](TBD) [[Link]](TBD)
-  - TransLLM (`leng2025transllm`) TransLLM: A Unified Multi-Task Foundation Framework for Urban Transportation via Learnable Prompting (`leng2025transllm`) arXiv preprint arXiv:2508.14782, 2025. [[PDF]](TBD) [[Link]](TBD)
+  - LLM-MPE (`liang2024exploring`) Exploring large language models for human mobility prediction under public events. Computers, Environment and Urban Systems, 2024. [[paper]](https://doi.org/10.1016/j.compenvurbsys.2024.102153) 
+  - STCInterLLM (`li2025causal`) Causal Intervention Is What Large Language Models Need for Spatio-Temporal Forecasting. IEEE Transactions on Cybernetics, 2025. [[paper]](https://doi.org/10.1109/TCYB.2025.3569333) 
+  - xTP-LLM (`guo2024towards`) Towards explainable traffic flow prediction with large language models. Communications in Transportation Research, 2024. [[paper]](https://doi.org/10.1016/j.commtr.2024.100150) 
+  - Cai et al. (`cai2024temporal`) Temporal-Spatial Traffic Flow Prediction Model Based on Prompt Learning. ISPRS International Journal of Geo-Information, 2025. [[paper]](https://doi.org/10.3390/ijgi14010011) 
+  - LLM4PT (`wu2025llm4pt`) LLM4PT: A large language model-based system for flexible and explainable public transit demand prediction. Computers & Industrial Engineering, 2025. [[paper]](https://doi.org/10.1016/j.cie.2025.111449) 
+  - TransLLM (`leng2025transllm`) TransLLM: A Unified Multi-Task Foundation Framework for Urban Transportation via Learnable Prompting. arXiv preprint arXiv:2508.14782, 2025. [[paper]](https://arxiv.org/abs/2508.14782) 
 
 - **Generation**
-  - LLMob (`jiawei2024large`) Large language models as urban residents: An llm agent framework for personal mobility generation (`jiawei2024large`) NeurIPS, 2024. [[PDF]](TBD) [[Link]](TBD)
-
+  - LLMob (`jiawei2024large`) Large language models as urban residents: An llm agent framework for personal mobility generation. NeurIPS, 2024. [[paper]](https://arxiv.org/abs/2402.14744) 
 
 ### 2.4 Featurization
 
 #### 2.4.1 Diffusion Model
-- CoDiffMob (`codiffmob2025`) - Noise Matters: Diffusion Model-Based Urban Mobility Generation with Collaborative Noise Priors (`codiffmob2025`) WWW, 2025. [[PDF]](TBD) [[Link]](TBD)
-- ControlTraj (`zhu2024controltraj`) - Controltraj: Controllable trajectory generation with topology-constrained diffusion model (`zhu2024controltraj`) KDD, 2024. [[PDF]](TBD) [[Link]](TBD)
-- DiffTraj (`difftraj2023`) - DiffTraj: Generating GPS Trajectories with Diffusion Probabilistic Models (`difftraj2023`) NeurIPS, 2023. [[PDF]](TBD) [[Link]](TBD)
-- Cardiff (`guo2025leveraging`)
-- UniMob (`long2025universal`) - A universal model for human mobility prediction (`long2025universal`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
+- CoDiffMob (`codiffmob2025`) Noise Matters: Diffusion Model-Based Urban Mobility Generation with Collaborative Noise Priors. WWW, 2025. [[paper]](https://doi.org/10.1145/3696410.3714516) 
+- ControlTraj (`zhu2024controltraj`) ControlTraj: Controllable Trajectory Generation with Topology-Constrained Diffusion Model. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671866) 
+- DiffTraj (`difftraj2023`) DiffTraj: Generating GPS Trajectory with Diffusion Probabilistic Model. NeurIPS, 2023. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/cd9b4a28fb9eebe0430c3312a4898a41-Paper-Conference.pdf) 
+- Cardiff (`guo2025leveraging`) Leveraging the Spatial Hierarchy: Coarse-to-fine Trajectory Generation via Cascaded Hybrid Diffusion. arXiv preprint arXiv:2507.13366, 2025. [[paper]](https://arxiv.org/abs/2507.13366) 
+- UniMob (`long2025universal`) A Universal Model for Human Mobility Prediction. KDD, 2025. [[paper]](https://doi.org/10.1145/3690624.3709236) 
 
 
 
@@ -274,46 +282,43 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 ### 3.1 Tokenization
 
 #### 3.1.1 Pretrained LM
-- UniFlow (`yuan2024uniflow`) UniFlow: A Foundation Model for Unified Urban Spatio-Temporal Flow Prediction (`yuan2024uniflow`) arXiv preprint arXiv:2411.12972, 2024. [[PDF]](TBD) [[Link]](TBD)
-- RePST (`wang2024repst`) RePST: Language Model Empowered Spatio-Temporal Forecasting via Semantic-Oriented Reprogramming (`wang2024repst`) arXiv preprint arXiv:2408.14505, 2024. [[PDF]](TBD) [[Link]](TBD)
-- CompactST (`han2025scalable`) Scalable Pre-Training of Compact Urban Spatio-Temporal Predictive Models on Large-Scale Multi-Domain Data (`han2025scalable`) VLDB, 2025. [[PDF]](TBD) [[Link]](TBD)
-- STD-PLM (`huang2025std`) - Std-plm: Understanding both spatial and temporal properties of spatial-temporal data with plm (`huang2025std`) AAAI, 2025. [[PDF]](TBD) [[Link]](TBD)
-
+- UniFlow (`yuan2024uniflow`) UniFlow: A Foundation Model for Unified Urban Spatio-Temporal Flow Prediction. arXiv preprint arXiv:2411.12972, 2024. [[paper]](https://arxiv.org/abs/2411.12972)
+- RePST (`wang2024repst`) RePST: Language Model Empowered Spatio-Temporal Forecasting via Semantic-Oriented Reprogramming. IJCAI, 2025. [[paper]](https://www.ijcai.org/proceedings/2025/0374.pdf)
+- CompactST (`han2025scalable`) Scalable Pre-Training of Compact Urban Spatio-Temporal Predictive Models on Large-Scale Multi-Domain Data. VLDB, 2025. [[paper]](https://doi.org/10.14778/3734839.3734851)
+- STD-PLM (`huang2025std`) Std-PLM: Understanding Both Spatial and Temporal Properties of Spatial-Temporal Data with PLM. AAAI, 2025. [[paper]](https://doi.org/10.1609/aaai.v39i11.33286)
 
 #### 3.1.2 LLM
-- STG-LLM (`liu2024can`) Can large language models capture human travel behavior? evidence and insights on mode choice (`liu2024can`) Evidence and Insights on Mode Choice (Au, 2024. [[PDF]](TBD) [[Link]](TBD)
-- ST-LLM (`liu2024spatial`) Spatial-temporal large language model for traffic prediction (`liu2024spatial`) MDM, 2024. [[PDF]](TBD) [[Link]](TBD)
-
+- STG-LLM (`liu2024can`) Can Large Language Models Capture Human Travel Behavior? Evidence and Insights on Mode Choice. SSRN, 2024. [[paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937575)
+- ST-LLM (`liu2024spatial`) Spatial-Temporal Large Language Model for Traffic Prediction. MDM, 2024. [[paper]](https://doi.org/10.1109/MDM61037.2024.00025)
 
 
 ### 3.2 Encoding
 
 #### 3.2.1 Pretrained LM
-- STGormer (`zhou2024navigating`) Navigating spatio-temporal heterogeneity: A graph transformer approach for traffic forecasting (`zhou2024navigating`) arXiv preprint arXiv:2408.10822, 2024. [[PDF]](TBD) [[Link]](TBD)
-- STGLLM-E (`rong2024edge`) Edge computing enabled large-scale traffic flow prediction with GPT in intelligent autonomous transport system for 6G network (`rong2024edge`) T-ITS, 2024. [[PDF]](TBD) [[Link]](TBD)
-- CityCAN (`wang2024citycan`) - CityCAN: Causal attention network for citywide spatio-temporal forecasting (`wang2024citycan`) WSDM, 2024. [[PDF]](TBD) [[Link]](TBD)
-- STTNs (`xu2020spatial`) - Spatial-temporal transformer networks for traffic flow forecasting (`xu2020spatial`) arXiv preprint arXiv:2001.02908, 2020. [[PDF]](TBD) [[Link]](TBD)
-- ST-LINK (`jeon2025st`) - ST-LINK: Spatially-Aware Large Language Models for Spatio-Temporal Forecasting (`jeon2025st`) arXiv preprint arXiv:2509.13753, 2025. [[PDF]](TBD) [[Link]](TBD)
+- STGormer (`zhou2024navigating`) Navigating Spatio-Temporal Heterogeneity: A Graph Transformer Approach for Traffic Forecasting. arXiv preprint arXiv:2408.10822, 2024. [[paper]](https://arxiv.org/abs/2408.10822)
+- STGLLM-E (`rong2024edge`) Edge Computing Enabled Large-Scale Traffic Flow Prediction With GPT in Intelligent Autonomous Transport System for 6G Network. T-ITS, 2024. [[paper]](https://doi.org/10.1109/TITS.2024.3456890)
+- CityCAN (`wang2024citycan`) CityCAN: Causal Attention Network for Citywide Spatio-Temporal Forecasting. WSDM, 2024. [[paper]](https://doi.org/10.1145/3616855.3635764)
+- STTNs (`xu2020spatial`) Spatial-Temporal Transformer Networks for Traffic Flow Forecasting. arXiv preprint arXiv:2001.02908, 2020. [[paper]](https://arxiv.org/abs/2001.02908)
+- ST-LINK (`jeon2025st`) ST-LINK: Spatially-Aware Large Language Models for Spatio-Temporal Forecasting. arXiv preprint arXiv:2509.13753, 2025. [[paper]](https://arxiv.org/abs/2509.13753)
 
 #### 3.2.2 LLM
-- ST-LLM (`liu2024spatial`)
-- UrbanGPT (`li2024urbangpt`)
+- UrbanGPT (`li2024urbangpt`) UrbanGPT: Spatio-temporal large language models. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671578) 
 
 
 ### 3.3 Prompting
 
 #### 3.3.1 LLM
-- LEAF (`zhao2024embracing`) - Embracing large language models in traffic flow forecasting (`zhao2024embracing`) arXiv preprint arXiv:2412.12201, 2024. [[PDF]](TBD) [[Link]](TBD)
-- LLMCOD (`yu2024harnessing`) - Harnessing llms for cross-city od flow prediction (`yu2024harnessing`) SIGSPATIAL, 2024. [[PDF]](TBD) [[Link]](TBD)
-- TraffiCoT-R (`alsahfi2025trafficot`) TraffiCoT-R: A framework for advanced spatio-temporal reasoning in large language models (`alsahfi2025trafficot`) Alexandria Engineering Journal, 2025. [[PDF]](TBD) [[Link]](TBD)
+- LEAF (`zhao2024embracing`) Embracing large language models in traffic flow forecasting. arXiv preprint arXiv:2412.12201, 2024. [[paper]](https://arxiv.org/abs/2412.12201) 
+- LLMCOD (`yu2024harnessing`) Harnessing llms for cross-city od flow prediction. SIGSPATIAL, 2024. [[paper]](https://doi.org/10.1145/3678717.3691308) 
+- TraffiCoT-R (`alsahfi2025trafficot`) TraffiCoT-R: A framework for advanced spatio-temporal reasoning in large language models. Alexandria Engineering Journal, 2025. [[paper]](https://doi.org/10.1016/j.aej.2025.05.027) 
 
 
 ### 3.4 Featurization
 
 #### 3.4.1 Diffusion Model
-- DiffODGen (`rong2023complexity`) Complexity-aware large scale origin-destination network generation via diffusion model (`rong2023complexity`) arXiv preprint arXiv:2306.04873, 2023. [[PDF]](TBD) [[Link]](TBD)
-- OpenDiff (`chai2024diffusion`) Diffusion model-based mobile traffic generation with open data for network planning and optimization (`chai2024diffusion`) KDD, 2024. [[PDF]](TBD) [[Link]](TBD)
-- Rong et al. (`ronglarge`) - A Large-scale Dataset and Benchmark for Commuting Origin-Destination Flow Generation (`ronglarge`) ICLR, TBD. [[PDF]](TBD) [[Link]](TBD)
+- DiffODGen (`rong2023complexity`) Complexity-aware large scale origin-destination network generation via diffusion model. arXiv preprint arXiv:2306.04873, 2023. [[paper]](https://arxiv.org/abs/2306.04873) 
+- OpenDiff (`chai2024diffusion`) Diffusion model-based mobile traffic generation with open data for network planning and optimization. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671544) 
+- Rong et al. (`ronglarge`) A Large-scale Dataset and Benchmark for Commuting Origin-Destination Flow Generation. ICLR, 2025. [[paper]](https://openreview.net/forum?id=WeJEidTzff) 
 
 
 
@@ -323,48 +328,48 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 ![06-multimodal](assets/06-multimodal.png)
 
 ### 4.1 Vision and Trajectory
-- UrbanLLaVA (`feng2025urbanllava`) UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding (`feng2025urbanllava`) arXiv preprint arXiv:2506.23219, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Traj-MLLM (`liu2025traj`) Traj-MLLM: Can Multimodal Large Language Models Reform Trajectory Data Mining? (`liu2025traj`) arXiv preprint arXiv:2509.00053, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Flame (`xu2025flame`) - Flame: Learning to navigate with multimodal llm in urban environments (`xu2025flame`) AAAI, 2025. [[PDF]](TBD) [[Link]](TBD)
-- MM-RSTraj (`gao2025mm`)
-- VLMLocPredictor (`zhang2025eyes`) Eyes Will Shut: A Vision-Based Next GPS Location Prediction Model by Reinforcement Learning from Visual Map Feed Back (`zhang2025eyes`) arXiv preprint arXiv:2507.18661, 2025. [[PDF]](TBD) [[Link]](TBD)
-- MapGPT (`chen2024mapgpt`) Mapgpt: Map-guided prompting with adaptive path planning for vision-and-language navigation (`chen2024mapgpt`) arXiv preprint arXiv:2401.07314, 2024. [[PDF]](TBD) [[Link]](TBD)
-- UGI (`xu2023urban`) Urban generative intelligence (ugi): A foundational platform for agents in embodied city environment (`xu2023urban`) arXiv preprint arXiv:2312.11813, 2023. [[PDF]](TBD) [[Link]](TBD)
-- CityBench (`feng2025citybench`) - Citybench: Evaluating the capabilities of large language models for urban tasks (`feng2025citybench`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-- LLM-enhanced POI recommendation (`wang2025beyond`) Beyond Visit Trajectories: Enhancing POI Recommendation via LLM-Augmented Text and Image Representations (`wang2025beyond`) Nineteenth ACM Conference on Recommender, 2025. [[PDF]](TBD) [[Link]](TBD)
+- UrbanLLaVA (`feng2025urbanllava`) UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding. arXiv preprint arXiv:2506.23219, 2025. [[paper]](https://arxiv.org/abs/2506.23219)
+- Traj-MLLM (`liu2025traj`) Traj-MLLM: Can Multimodal Large Language Models Reform Trajectory Data Mining?. arXiv preprint arXiv:2509.00053, 2025. [[paper]](https://arxiv.org/abs/2509.00053)
+- Flame (`xu2025flame`) Flame: Learning to Navigate with Multimodal LLM in Urban Environments. AAAI, 2025. [[paper]](https://doi.org/10.1609/aaai.v39i9.32974)
+- VLMLocPredictor (`zhang2025eyes`) Eyes Will Shut: A Vision-Based Next GPS Location Prediction Model by Reinforcement Learning from Visual Map Feed Back. arXiv preprint arXiv:2507.18661, 2025. [[paper]](https://arxiv.org/abs/2507.18661)
+- MapGPT (`chen2024mapgpt`) MapGPT: Map-guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation. arXiv preprint arXiv:2401.07314, 2024. [[paper]](https://arxiv.org/abs/2401.07314)
+- UGI (`xu2023urban`) Urban Generative Intelligence (UGI): A Foundational Platform for Agents in Embodied City Environment. arXiv preprint arXiv:2312.11813, 2023. [[paper]](https://arxiv.org/abs/2312.11813)
+- CityBench (`feng2025citybench`) CityBench: Evaluating the Capabilities of Large Language Models as World Models for Urban Tasks. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3737375)
+- LLM-enhanced POI recommendation (`wang2025beyond`) Beyond Visit Trajectories: Enhancing POI Recommendation via LLM-Augmented Text and Image Representations. RecSys, 2025. [[paper]](https://doi.org/10.1145/3705328.3748014)
 
 ### 4.2 Text and Trajectory
-- TrajSceneLLM (`ji2025trajscenellm`) TrajSceneLLM: A Multimodal Perspective on Semantic GPS Trajectory Analysis (`ji2025trajscenellm`) arXiv preprint arXiv:2506.16401, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Path-LLM (`wei2025path`) Path-LLM: A Multi-Modal Path Representation Learning by Aligning and Fusing with Large Language Models (`wei2025path`) ACM on Web Conference 2025, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Trajectory-LLM (`yang2025trajectory`) Trajectory-llm: A language-based data generator for trajectory prediction in autonomous driving (`yang2025trajectory`) ICLR, 2025. [[PDF]](TBD) [[Link]](TBD)
-- TrajAgent (`du2024trajagent`) TrajAgent: An LLM-based Agent Framework for Automated Trajectory Modeling via Collaboration of Large and Small Models (`du2024trajagent`) arXiv preprint arXiv:2410.20445, 2024. [[PDF]](TBD) [[Link]](TBD)
-- CoAST (`zhai2025cognitive`) Cognitive-Aligned Spatio-Temporal Large Language Models For Next Point-of-Interest Prediction (`zhai2025cognitive`) arXiv preprint arXiv:2510.14702, 2025. [[PDF]](TBD) [[Link]](TBD)
-- CityGPT (`feng2025citygpt`) - Citygpt: Empowering urban spatial cognition of large language models (`feng2025citygpt`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-- POI-Enhancer (`cheng2025poi`)
-- D2A (`wang2024simulating`) Simulating human-like daily activities with desire-driven autonomy (`wang2024simulating`) arXiv preprint arXiv:2412.06435, 2024. [[PDF]](TBD) [[Link]](TBD)
+- TrajSceneLLM (`ji2025trajscenellm`) TrajSceneLLM: A Multimodal Perspective on Semantic GPS Trajectory Analysis. arXiv preprint arXiv:2506.16401, 2025. [[paper]](https://arxiv.org/abs/2506.16401)
+- Path-LLM (`wei2025path`) Path-LLM: A Multi-Modal Path Representation Learning by Aligning and Fusing with Large Language Models. WWW, 2025. [[paper]](https://doi.org/10.1145/3696410.3714744)
+- Trajectory-LLM (`yang2025trajectory`) Trajectory-LLM: A Language-Based Data Generator for Trajectory Prediction in Autonomous Driving. ICLR, 2025. [[paper]](https://openreview.net/forum?id=UapxTvxB3N)
+- TrajAgent (`du2024trajagent`) TrajAgent: An LLM-based Agent Framework for Automated Trajectory Modeling via Collaboration of Large and Small Models. arXiv preprint arXiv:2410.20445, 2024. [[paper]](https://arxiv.org/abs/2410.20445)
+- CoAST (`zhai2025cognitive`) Cognitive-Aligned Spatio-Temporal Large Language Models For Next Point-of-Interest Prediction. arXiv preprint arXiv:2510.14702, 2025. [[paper]](https://arxiv.org/abs/2510.14702)
+- CityGPT (`feng2025citygpt`) CityGPT: Empowering Urban Spatial Cognition of Large Language Models. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3736878)
+- POI-Enhancer (`cheng2025poi`) POI-Enhancer: An LLM-based Semantic Enhancement Framework for POI Representation Learning. AAAI, 2025. [[paper]](https://doi.org/10.1609/aaai.v39i11.33252)
+- D2A (`wang2024simulating`) Simulating Human-like Daily Activities with Desire-driven Autonomy. arXiv preprint arXiv:2412.06435, 2024. [[paper]](https://arxiv.org/abs/2412.06435)
+
+
 
 ### 4.3 Vision and Traffic
-- Vision-LLM (`yang2025vision`) - Vision-LLMs for Spatiotemporal Traffic Forecasting (`yang2025vision`) arXiv preprint arXiv:2510.11282, 2025. [[PDF]](TBD) [[Link]](TBD)
-- OpenDiff (`chai2024diffusion`)
-- LSDM (`zhang2025lsdm`) LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction (`zhang2025lsdm`) arXiv preprint arXiv:2507.17795, 2025. [[PDF]](TBD) [[Link]](TBD)
+- Vision-LLM (`yang2025vision`) Vision-LLMs for Spatiotemporal Traffic Forecasting. arXiv preprint arXiv:2510.11282, 2025. [[paper]](https://arxiv.org/abs/2510.11282)
+- OpenDiff (`chai2024diffusion`) Diffusion Model-based Mobile Traffic Generation with Open Data for Network Planning and Optimization. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671544)
+- LSDM (`zhang2025lsdm`) LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction. arXiv preprint arXiv:2507.17795, 2025. [[paper]](https://arxiv.org/abs/2507.17795)
 
 ### 4.4 Text and Traffic
-- ChatTraffic (`zhang2024chattraffic`) - ChatTraffic: Text-to-traffic generation via diffusion model (`zhang2024chattraffic`) T-ITS, 2024. [[PDF]](TBD) [[Link]](TBD)
-- ChatSUMO (`li2024chatsumo`) Chatsumo: Large language model for automating traffic scenario generation in simulation of urban mobility (`li2024chatsumo`) IEEE Transactions on Intelligent Vehicle, 2024. [[PDF]](TBD) [[Link]](TBD)
-- UrbanMind (`liu2025urbanmind`) - UrbanMind: Urban Dynamics Prediction with Multifaceted Spatial-Temporal Large Language Models (`liu2025urbanmind`) KDD, 2025. [[PDF]](TBD) [[Link]](TBD)
-- T3 (`han2024event`) - Event traffic forecasting with sparse multimodal data (`han2024event`) 32nd ACM International Conference on Mul, 2024. [[PDF]](TBD) [[Link]](TBD)
-- GPT4MTS (`jia2024gpt4mts`) - Gpt4mts: Prompt-based large language model for multimodal time-series forecasting (`jia2024gpt4mts`) AAAI, 2024. [[PDF]](TBD) [[Link]](TBD)
-
+- ChatTraffic (`zhang2024chattraffic`) ChatTraffic: Text-to-Traffic Generation via Diffusion Model. T-ITS, 2024. [[paper]](https://doi.org/10.1109/TITS.2024.3510402)
+- ChatSUMO (`li2024chatsumo`) ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban Mobility. IEEE Transactions on Intelligent Vehicles, 2024. [[paper]](https://doi.org/10.1109/TIV.2024.3508471)
+- UrbanMind (`liu2025urbanmind`) UrbanMind: Urban Dynamics Prediction with Multifaceted Spatial-Temporal Large Language Models. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3737177)
+- T3 (`han2024event`) Event Traffic Forecasting with Sparse Multimodal Data. ACM MM, 2024. [[paper]](https://doi.org/10.1145/3664647.3680706)
+- GPT4MTS (`jia2024gpt4mts`) GPT4MTS: Prompt-based Large Language Model for Multimodal Time-Series Forecasting. AAAI, 2024. [[paper]](https://doi.org/10.1609/aaai.v38i21.30383)
 
 ### 4.5 Vision and Graph
-- Sat2Flow (`wang2025sat2flow`) Sat2Flow: A Structure-Aware Diffusion Framework for Human Flow Generation from Satellite Imagery (`wang2025sat2flow`) arXiv preprint arXiv:2508.19499, 2025. [[PDF]](TBD) [[Link]](TBD)
-- GlODGen (`rong2025satellites`) Satellites Reveal Mobility: A Commuting Origin-destination Flow Generator for Global Cities (`rong2025satellites`) arXiv preprint arXiv:2505.15870, 2025. [[PDF]](TBD) [[Link]](TBD)
+- Sat2Flow (`wang2025sat2flow`) Sat2Flow: A Structure-Aware Diffusion Framework for Human Flow Generation from Satellite Imagery. arXiv preprint arXiv:2508.19499, 2025. [[paper]](https://arxiv.org/abs/2508.19499)
+- GlODGen (`rong2025satellites`) Satellites Reveal Mobility: A Commuting Origin-Destination Flow Generator for Global Cities. arXiv preprint arXiv:2505.15870, 2025. [[paper]](https://arxiv.org/abs/2505.15870)
 
 ### 4.6 Text and Graph
-- SeMob (`chen2025semob`) - SeMob: Semantic Synthesis for Dynamic Urban Mobility Prediction (`chen2025semob`) arXiv preprint arXiv:2510.01245, 2025. [[PDF]](TBD) [[Link]](TBD)
-- Ernie-GeoL (`huang2022ernie`) - Ernie-geol: A geography-and-language pre-trained model and its applications in baidu maps (`huang2022ernie`) KDD, 2022. [[PDF]](TBD) [[Link]](TBD)
-- FUSE-Traffic (`yu2025fuse`) FUSE-Traffic: Fusion of Unstructured and Structured Data for Event-aware Traffic Forecasting (`yu2025fuse`) arXiv preprint arXiv:2510.16053, 2025. [[PDF]](TBD) [[Link]](TBD)
-- CityFM (`balsebre2024city`) - City foundation models for learning general purpose representations from openstreetmap (`balsebre2024city`) CIKM, 2024. [[PDF]](TBD) [[Link]](TBD)
+- SeMob (`chen2025semob`) SeMob: Semantic Synthesis for Dynamic Urban Mobility Prediction. EMNLP, 2025. [[paper]](https://aclanthology.org/2025.emnlp-main.775.pdf)
+- Ernie-GeoL (`huang2022ernie`) ERNIE-GeoL: A Geography-and-Language Pre-trained Model and Its Applications in Baidu Maps. KDD, 2022. [[paper]](https://doi.org/10.1145/3534678.3539021)
+- FUSE-Traffic (`yu2025fuse`) FUSE-Traffic: Fusion of Unstructured and Structured Data for Event-aware Traffic Forecasting. arXiv preprint arXiv:2510.16053, 2025. [[paper]](https://arxiv.org/abs/2510.16053)
+- CityFM (`balsebre2024city`) City Foundation Models for Learning General Purpose Representations from OpenStreetMap. CIKM, 2024. [[paper]](https://doi.org/10.1145/3627673.3679662)
 
 
 
@@ -420,7 +425,7 @@ we propose a comprehensive and data-centric survey of language modeling for urba
 
 
 
-# References from Other AI Communities
+# References from General AI Communities
 
 
 
