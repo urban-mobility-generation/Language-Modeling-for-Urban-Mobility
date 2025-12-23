@@ -126,7 +126,7 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 
 - **Transformer Decoder**
   - MobilityGPT (`mobilitygpt2024`) MobilityGPT: Enhanced Human Mobility Modeling with a GPT model. [[paper]](https://arxiv.org/abs/2402.03264) [[code]](https://github.com/ammarhydr/MobilityGPT)
-  - GeoFormer (`solatorio2023geoformer`) GeoFormer: predicting human mobility using generative pre-trained transformer (GPT). 2023. [[paper]] [[code]](https://github.com/avsolatorio/geoformer)(https://dl.acm.org/doi/10.1145/3615894.3628499)
+  - GeoFormer (`solatorio2023geoformer`) GeoFormer: predicting human mobility using generative pre-trained transformer (GPT). 2023. [[paper]](https://dl.acm.org/doi/10.1145/3615894.3628499) [[code]](https://github.com/avsolatorio/geoformer)
   - LMTAD (`mbuya2024trajectory`) Trajectory Anomaly Detection with Language Models. SIGSPATIAL, 2024. [[paper]](https://dl.acm.org/doi/10.1145/3678717.3691257) [[code]](https://github.com/jonathankabala/LMTAD)
   - Kobayashi et al. (`kobayashi2023modeling`) Modeling and generating human mobility trajectories using transformer with day encoding. 2023. [[paper]](https://dl.acm.org/doi/10.1145/3615894.3628506) 
   - Traj-LLM (`lan2024traj`) Traj-llm: A new exploration for empowering trajectory prediction with pre-trained large language models. IEEE Transactions on Intelligent Vehicle, 2024. [[paper]](https://arxiv.org/abs/2405.04909)
@@ -250,7 +250,7 @@ We propose a comprehensive and data-centric survey of language modeling for urba
   - UniTraj (`zhu2024unitraj`) UniTraj: Learning a universal trajectory foundation model from billion-scale worldwide traces. arXiv preprint arXiv:2411.03859, 2024. [[paper]](https://arxiv.org/abs/2411.03859) [[code]](https://github.com/Yasoz/UniTraj)
 
 #### 2.1.2 LLM
-- LMTraj (`bae2024can`) Can language beat numerical regression? language-based multimodal trajectory prediction. CVPR, 2024. [[paper]] [[code]](https: //github.com/inhwanbae/LMTrajectory)(https://openaccess.thecvf.com/content/CVPR2024/papers/Bae_Can_Language_Beat_Numerical_Regression_Language-Based_Multimodal_Trajectory_Prediction_CVPR_2024_paper.pdf)
+- LMTraj (`bae2024can`) Can language beat numerical regression? language-based multimodal trajectory prediction. CVPR, 2024. [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Bae_Can_Language_Beat_Numerical_Regression_Language-Based_Multimodal_Trajectory_Prediction_CVPR_2024_paper.pdf) [[code]](https: //github.com/inhwanbae/LMTrajectory)
 - RouteLLM (`hallgarten2025routellm`) RouteLLM: A Large Language Model with Native Route Context Understanding to Enable Context-Aware Reasoning. IMWUT, 2025. [[paper]](https://doi.org/10.1145/3749552) [[code]](https://huggingface.co/RouteLLM-Dataset)
 - QT-Mob (`chen2025enhancing`) Enhancing Large Language Models for Mobility Analytics with Semantic Location Tokenization. KDD, 2025. [[paper]](https://doi.org/10.1145/3711896.3736937) [[code]](https://github.com/shadowfall09/QT-Mob)
 - CAMS (`du2025cams`) CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation. arXiv preprint arXiv:2506.13599, 2025. [[paper]](https://arxiv.org/abs/2506.13599)
@@ -390,7 +390,7 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 ### 4.3 Vision and Traffic
 - Vision-LLM (`yang2025vision`) Vision-LLMs for Spatiotemporal Traffic Forecasting. arXiv preprint arXiv:2510.11282, 2025. [[paper]](https://arxiv.org/abs/2510.11282)
 - OpenDiff (`chai2024diffusion`) Diffusion Model-based Mobile Traffic Generation with Open Data for Network Planning and Optimization. KDD, 2024. [[paper]](https://doi.org/10.1145/3637528.3671544) [[code]](https://github.com/impchai/OpenDiff-diffusion-model-with-open-data)
-- LSDM (`zhang2025lsdm`) LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction. arXiv preprint arXiv:2507.17795, 2025. [[paper]](https://arxiv.org/abs/2507.17795) [[code]](https://github.com/SoftYuaneR/LSDM) [[code]](https://github.com/SoftYuaneR/LSDM)
+- LSDM (`zhang2025lsdm`) LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction. arXiv preprint arXiv:2507.17795, 2025. [[paper]](https://arxiv.org/abs/2507.17795) [[code]](https://github.com/SoftYuaneR/LSDM)
 
 ### 4.4 Text and Traffic
 - ChatTraffic (`zhang2024chattraffic`) ChatTraffic: Text-to-Traffic Generation via Diffusion Model. T-ITS, 2024. [[paper]](https://doi.org/10.1109/TITS.2024.3510402) [[code]](https://github.com/ChyaZhang/ChatTraffic)
