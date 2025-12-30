@@ -4,7 +4,7 @@
 ![01-Data](assets/01-introduction.png)
 
 
-> This repository contains a collection of resources and papers on applying language modeling paradigms to urban mobility scenarios. If you find this repo is useful, please cite our paper [[Bib]](#BibTex).
+> This repository contains a collection of resources and papers on applying language modeling paradigms to urban mobility scenarios. If you find this repo is useful, please cite our paper [[bib]](#BibTex).
 
 ![00-intro](assets/00-intro.png)
 
