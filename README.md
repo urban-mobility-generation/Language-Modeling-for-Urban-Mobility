@@ -1,10 +1,10 @@
 # Awesome Language Modeling for Urban Mobility
-> Language Modeling for Urban Mobility: A Data-Centric Review and Guidelines
+> Language Modeling for Urban Mobility: A Data-Centric Review and Guidelines. [![Paper](https://img.shields.io/badge/Paper-TechRxiv-orange)](http://dx.doi.org/10.36227/techrxiv.176703984.41856875/v1) [![DOI](https://img.shields.io/badge/DOI-10.36227/v1-blue)](http://dx.doi.org/10.36227/techrxiv.176703984.41856875/v1)
 
 ![01-Data](assets/01-introduction.png)
 
 
-> This repository contains a collection of resources and papers on applying language modeling paradigms to urban mobility scenarios.
+> This repository contains a collection of resources and papers on applying language modeling paradigms to urban mobility scenarios. If you find this repo is useful, please cite our paper [[Bib]](#BibTex).
 
 ![00-intro](assets/00-intro.png)
 
@@ -468,5 +468,17 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 
 
 
-# Citation
+# BibTex
+
+```bibtex
+@article{Guo_2025,
+  title={Language Models Meet Urban Mobility: A Data-Centric Review},
+  url={[http://dx.doi.org/10.36227/techrxiv.176703984.41856875/v1](http://dx.doi.org/10.36227/techrxiv.176703984.41856875/v1)},
+  DOI={10.36227/techrxiv.176703984.41856875/v1},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Guo, Baoshen and Hong, Zhiqing and Cao, Lidan and Li, Donghang and Li, Junyi and Rong, Can and Prakash, Alok and Wang, Shenhao and Zhao, Jinhua},
+  year={2025},
+  month=dec 
+}
+
 
