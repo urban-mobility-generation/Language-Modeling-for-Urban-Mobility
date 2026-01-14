@@ -15,6 +15,7 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 
 ## Contents
 
+- [Mobility Research in Nature, Science, and PNAS Series Journals](#mobility-research-in-nature-science-and-pnas-series-journals)
 - [Related Survey](#Related-Survey)
 - [1. Discrete Mobility Sequence](#1-discrete-mobility-sequence)
   - [1.1 Tokenization](#11-tokenization)
@@ -58,7 +59,31 @@ We propose a comprehensive and data-centric survey of language modeling for urba
   - [4.6 Text and Graph](#46-text-and-graph)
 
 - [Dataset](#Dataset)
-- [References from General AI Communities](#References-from-General-AI-Communities)
+
+[//]: # (- [References from General AI Communities]&#40;#References-from-General-AI-Communities&#41;)
+
+# Mobility Research in Nature, Science, and PNAS Series Journals
+
+- **[Science 2010]** Network Diversity and Economic Development [[paper]](https://www.science.org/doi/10.1126/science.1186605)
+- **[Science 2015]** Predicting poverty and wealth from mobile phone metadata [[paper]](https://www.science.org/doi/10.1126/science.aac4420)
+- **[Nature 2021]** The universal visitation law of human mobility [[paper]](https://doi.org/10.1038/s41586-021-03480-9)
+- **[Nature 2022]** Machine learning and phone data can improve targeting of humanitarian aid [[paper]](https://doi.org/10.1038/s41586-022-04484-9)
+- **[Nature Machine Intelligence 2022]** Quantifying the spatial homogeneity of urban road networks via graph neural networks [[paper]](https://doi.org/10.1038/s42256-022-00462-y)
+- **[Nature Computational Science 2023]** Future directions in human mobility science [[paper]](https://doi.org/10.1038/s43588-023-00469-4)
+- **[Nature Communications 2024]** Similarity and economy of scale in urban transportation networks and optimal transport-based infrastructures [[paper]](https://www.nature.com/articles/s41467-024-52313-6)
+- **[Nature Communications 2024]** Unravelling the spatial directionality of urban mobility [[paper]](https://www.nature.com/articles/s41467-024-48909-7)
+- **[Nature Cities 2024]** Infrequent activities predict economic outcomes in major American cities [[paper]](https://doi.org/10.1038/s44284-024-00051-7)
+- **[HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS 2024]** Neural embeddings of urban big data reveal spatial
+structures in cities [[paper]](https://doi.org/10.1057/s41599-024-02917-6)
+- **[HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS 2024]** Counterfactual mobility network embedding
+reveals prevalent accessibility gaps in U.S. cities [[paper]](https://doi.org/10.1057/s41599-023-02570-5)
+- **[Nature Cities 2024]** Network constraints on worker mobility [[paper]](https://doi.org/10.1038/s44284-023-00009-1)
+- **[Nature Human Behaviour 2025]** Using human mobility data to quantify experienced urban inequalities [[paper]](https://doi.org/10.1038/s41562-024-02079-0)
+- **[Nature Human Behaviour 2025]**  Behaviour-based dependency networks between places shape urban economic resilience [[paper]](https://www.nature.com/articles/s41562-024-02072-7)
+- **[Nature Communications 2025]** Human mobility is well described by closed-form gravity-like models learned automatically from data [[paper]](https://doi.org/10.1038/s41467-025-56495-5)
+
+
+
 
 # Related Survey
 - A survey on deep learning for human mobility (2021). [[paper]](https://arxiv.org/pdf/2012.02825.pdf) [[code]](https://github.com/scikit-mobility/DeepLearning4HumanMobility)
@@ -461,7 +486,9 @@ We propose a comprehensive and data-centric survey of language modeling for urba
 
 
 
-# References from General AI Communities
+[//]: # (# References from General AI Communities)
+
+
 
 
 
